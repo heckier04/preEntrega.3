@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar .item  {
+    color: #30cc00;
+    text-decoration: none;
+    margin: 0 20px ;
+}
+
+.navbar ,.item:hover {
+    text-decoration: none;
+}
+
+.conteiner {
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #0f0d0d;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #04067e;
+    color: rgb(0, 247, 0);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#carrito-items {
+    margin-top: 30px;
+}
+
+.btn-danger {
+    background-color: #cf0217;
+    margin-top: 10px;
+}
+
+.btn-danger:hover {
+    background-color: #500008;
+}
+
+main {
+    padding: 20px;
+    background-color: #f52a2a;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover { 
+    text-decoration: underline;
+}
